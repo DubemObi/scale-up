@@ -19,7 +19,6 @@ const userSchema = new mongoose.Schema({
   },
   phoneNumber: {
     type: String,
-    // required: true,
     minlength: [11, "Input a correct phone number"],
   },
 });
